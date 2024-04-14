@@ -9,11 +9,10 @@ Fashion-MNIST는 의류와 관련된 이미지로 구성된 데이터셋으로, 
 
 과제:
 * 		주어진 데이터 분석:
-    * Fashion-MNIST 데이터셋을 로드합니다.
-        * train-images-idx3-ubyte.gz은 60,000개의 training set images 입니다.
-        * train-labels-idx1-ubyte.gz은 60,000개의 training set labels 입니다.
-        * t10k-images-idx3-ubyte.gz은 10,000개의 test set images 입니다.
-        * t10k-labels-idx1-ubyte.gz은 10,000개의 test set labels 입니다. 
+    * 축소한 Fashion-MNIST 데이터셋을 로드합니다.
+        * t10k-images-idx3-ubyte.gz은 10,000개의 images 입니다.
+        * t10k-labels-idx1-ubyte.gz은 10,000개의 labels 입니다.
+    * 축소한 Fashion-MNIST 데이터셋을 로드하고, 훈련 데이터와 테스트 데이터로 나눕니다.
     * 이미지 데이터의 형태와 클래스 레이블을 시각적으로 탐색하고 분석합니다.
 
 * 		모델 구축 및 훈련:
